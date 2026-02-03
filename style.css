@@ -96,6 +96,11 @@ li {
   }
 }
 
+/* Cool CRT effect i found out you could do. Found this website that helped me out: https://medium.com/@dovid11564/using-css-animations-to-mimic-the-look-of-a-crt-monitor-3919de3318e2 
+
+The crt effect is affecting the whole page by targeting the body's class called "crt".
+pretty cool!*/
+
 .crt {
   background: linear-gradient(to top, #000000, #000000, #1c1c1c, #1c1c1c);
   background-size: cover;
@@ -120,17 +125,20 @@ li {
 .cursor {
    display: inline-block;
     background-color: #00ff00;
-    width: 40px;
-    height: 30px;
+    width: 30px;
+    height: 10px;
     animation: breathe;
     animation-duration: 1s;
    animation-iteration-count: infinite;
+   animation-timing-function: ease-in-out;
 }
 
 @keyframes breathe {
     0% {
         opacity: 0;
     }
+
+    
 
     100% {
         opacity: 1;
