@@ -3,7 +3,7 @@
   font-optical-sizing: auto;
   font-weight: bold;
   font-style: normal;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 * {
@@ -67,7 +67,7 @@ body {
   border-radius: 10px;
   border: 1px solid rgba(60, 255, 122, 0.25);
 
-  filter: grayscale(100%) contrast(1.25) brightness(0.9);
+  filter: grayscale(80%) contrast(1.25) brightness(0.9);
 }
 
 /* list */
@@ -110,7 +110,7 @@ pretty cool!*/
 
 @media screen {
   .crt {
-    animation: scanlines infinite 55s linear;
+    animation: scanlines infinite 20s linear;
   }
 }
 @keyframes scanlines {
